@@ -31,7 +31,7 @@ const Header = () => {
                         const Icon = item.icon;
                         return (
                             <Link key={index} href={item.href} className="text-gray-400 hover:text-white transition-colors duration-300" rel="noopener noreferrer" target="_blank">
-                                <Icon className="h-6 w-6" />
+                                <Icon className="h-4 w-4 md:h-6 md:w-6" />
                             </Link>
                         )
                     })}
